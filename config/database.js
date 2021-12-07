@@ -1,6 +1,6 @@
 const path = require('path');
 
-module.exports = ({ env }) => ({
+module.exports = ({ process.env }) => ({
   connection: {
     client: 'mysql',
     connection: {
